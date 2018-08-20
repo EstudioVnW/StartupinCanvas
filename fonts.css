@@ -1,0 +1,41 @@
+@font-face {
+font-family: 'Korolev Heavy';
+font-style: normal;
+font-weight: normal;
+src:url(fonts/Korolev Heavy), url('Korolev Heavy.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Korolev Light';
+font-style: normal;
+font-weight: normal;
+src:url(fonts/Korolev Light), url('Korolev Light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Korolev Medium Italic';
+font-style: normal;
+font-weight: normal;
+src:url(fonts/Korolev Medium Italic), url('Korolev Medium Italic.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Korolev Medium';
+font-style: normal;
+font-weight: normal;
+src:url(fonts/Korolev Medium), url('Korolev Medium.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Korolev Bold';
+font-style: normal;
+font-weight: normal;
+src:url(fonts/Korolev Bold), url('Korolev Bold.woff') format('woff');
+}
+@font-face {
+font-family: 'Lexia Bold';
+font-style: normal;
+font-weight: normal;
+src:url(fonts/Lexia Bold), url('LEXIB___.woff') format('woff');
+}
