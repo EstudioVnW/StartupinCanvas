@@ -23,7 +23,7 @@ header{
 }
 
 main{
-	width: 100%
+	width: 100%;
 	height: auto;
 	display: flex;
 	flex-direction: column;
@@ -252,41 +252,120 @@ main{
 	color: #fff;
 	background-color: #4152C0;
 }
-footer{
-	
+.caixa--section-fim{
+	height:80vh;
+	display: flex;
+   
 }
-.caixa--footer-envio{
+.caixa--section-raio{
+	width: 100%;
+	height: 77vh;
+	display: flex;
+	align-items: flex-end;
+	position: absolute;
+	z-index: -1;
+}
+.caixa--section-raio-img{
+	width: 100%;	
+	height: 70vh;
+}
+.caixa--section-envio{
 	width: 100%;
 	height: auto;
 	z-index: 0;
-}
-.caixa--footer-raio{
-	width: 60%;
-	position: absolute;
-	z-index: -1;	
-}
-
-.caixa--footer-title{
-	width: 80%;
-	font-family: 'Korolev Bold';
-	font-size: 52px;
-}
-.caixa--footer-envio-email{
 	display: flex;
+	flex-direction: column;
+	align-self: center;
 }
-.caixa--footer-button{
-	width: 20%;
+.caixa--section-title{
+	width: 253px;
+	align-self: center;
+	text-align: center;
+	font-size: 52px;
+	font-family: 'Korolev Bold';
+	
+}
+.caixa--section-envio-email{
+	width: 95%;
+	height: 10vh;
+	display: flex;
+	align-self: center;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+}
+.caixa--form{
+	width: 58%;
+	border: 1px solid #fff;
+}
+.caixa--section-input{
+	width: 100%;
+	height: 7vh;
+	font-size: 20px;
+	border: #fff;
+}
+.caixa--section-button{
+	width: 38%;
+	height: 7vh;
 	display: flex;
 	flex-direction: row;
 	font-family: 'Korolev Bold';
 	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	background-color: #FF2D9F;
+	color: #f5f5f5;
+	align-items: center;
+	justify-content: center;
 }
-.caixa--footer-raio-button-img{
+
+.caixa--section-raio-button-img{
 	width:15%;
+}
+footer{
+	/* height: 100%; */
+	color: #3913B3;
+	font-family: 'Korolev Bold';
+}
+.caixa--footer{
+	height: 100%;
+	display: flex;
+	align-self: center;
 }
 .caixa--footer-icons{
 	width: 100%;
 }
 .caixa--footer-icons-img{
-	width: 7%;
+	width: 5vw;
+}
+.caixa--footer-redes_contato{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-end;
+}
+.caixa--footer-contato{
+	
+}
+.caixa--footer-info{
+	display: flex;
+    justify-content: center;
+}
+.caixa--footer-linguage{
+	width: 35%;
+	display: flex;
+    justify-content: space-evenly; 
+}
+.caixa--footer-redes_sociais{
+	height: 13vh;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.caixa--footer-icons1{
+	width: 73%;
+	display: flex;
+	/* justify-content: space-around; */
+	align-self: center;
 }
