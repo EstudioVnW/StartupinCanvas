@@ -55,8 +55,6 @@ main{
 	}
 }
 .menu--button-apply{
-	/* width: 50%;
-	height: 4.5vh; */
 	width: 90px;
 	height: 30px;
     padding: 6px 2px 5px;
@@ -69,8 +67,6 @@ main{
     font-size: 10px;
 }
 .menu--button-sing{
-	/* width: 30%;
-	height: 4.5vh; */
 	width: 53px;
 	height: 30px;
     padding: 6px 2px 5px;
@@ -106,7 +102,6 @@ main{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	/* height: 38vh; */
 	height: 45vh;
 }
 @media(min-width: 1440px){
@@ -115,8 +110,6 @@ main{
 	}
 }
 .caixa_descricao--h{
-	/* width: 80%; */
-	/* height: 21vh; */
 	width: 274px;
 	height: 141px;
 	font-size: 55px;
@@ -124,7 +117,6 @@ main{
 	font-family: 'Korolev Heavy';
 }
 .caixa_descricao--paragrafo{
-	/* width: 80%; */
 	width: 265px;
 	align-self: center;
 	font-size: 18px;
@@ -313,7 +305,7 @@ main{
 }
 .caixa--section-envio-email{
 	width: 90%;
-	height: 10vh;
+	height: 55px;
 	display: flex;
 	align-self: center;
 	align-items: center;
@@ -327,8 +319,8 @@ main{
 }
 .caixa--section-input{
 	width: 100%;
-	height: 7vh;
-	font-size: 20px;
+	height: 40px;
+	font-size: 19px;
 	font-family: 'Korolev Light';
 	border: #fff;
 	outline:none;
@@ -353,9 +345,7 @@ main{
 	margin-right: 20px;
 }
 footer{
-	/* height: 100%; */
 	color: #3913B3;
-	font-family: 'Korolev Bold';
 }
 .caixa--footer{
 	height: 100%;
@@ -366,13 +356,17 @@ footer{
 	width: 66%;
 	height: 3vh;
     display: flex;
-    justify-content: space-between;
 }
 .caixa--footer-icons-midias2{
 	width: 100%;
 	height: 3vh;
     display: flex;
     justify-content: space-evenly;
+}
+.caixa--footer-icons-midias2-linkedin{
+	width: 75%;
+	display: flex;
+    justify-content: space-evenly; 
 }
 .caixa--footer-icons-img{
 	width: 12vw;
@@ -420,6 +414,5 @@ footer{
 .caixa--footer-icons1{
 	width: 73%;
 	display: flex;
-	/* justify-content: space-around; */
 	align-self: center;
 }
