@@ -55,8 +55,10 @@ main{
 	}
 }
 .menu--button-apply{
-	width: 50%;
-	height: 4.5vh;
+	/* width: 50%;
+	height: 4.5vh; */
+	width: 90px;
+	height: 30px;
     padding: 6px 2px 5px;
     align-self: center;
 	border-radius: 10px;
@@ -67,8 +69,10 @@ main{
     font-size: 10px;
 }
 .menu--button-sing{
-	width: 30%;
-	height: 4.5vh;
+	/* width: 30%;
+	height: 4.5vh; */
+	width: 53px;
+	height: 30px;
     padding: 6px 2px 5px;
 	border-radius: 10px;
     border-color: #3913B3;
@@ -102,7 +106,8 @@ main{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	height: 38vh;
+	/* height: 38vh; */
+	height: 45vh;
 }
 @media(min-width: 1440px){
 	.caixa_descricao{
@@ -110,14 +115,17 @@ main{
 	}
 }
 .caixa_descricao--h{
-	width: 80%;
-	height: 21vh;
+	/* width: 80%; */
+	/* height: 21vh; */
+	width: 274px;
+	height: 141px;
 	font-size: 55px;
 	align-self: center;
 	font-family: 'Korolev Heavy';
 }
 .caixa_descricao--paragrafo{
-	width: 80%;
+	/* width: 80%; */
+	width: 265px;
 	align-self: center;
 	font-size: 18px;
 	color: #3913B3;
@@ -161,12 +169,10 @@ main{
 .seta__divisoria{
 	width: 10%;
 }
-
 .caixa--divisoria__paragrafo{
 	font-size: 17px;
 	font-family: 'Korolev Medium';
 }
-
 .caixa--postit-feature{
 	width: 100%;
 	min-height: 13vh; 
@@ -205,7 +211,6 @@ main{
 	height: 25vh;
 	display: flex;
 	flex-direction: row;
-	
 }
 .caixa--planning-planejamentos{
 	width: 78%;	
@@ -215,7 +220,6 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  
 }
 .caixa--planning-planejamentos_p-BMG{
 	width: 64%;
@@ -235,7 +239,6 @@ main{
     height: 25vh;
     display: flex;
 	flex-direction: row-reverse;
-	
 }
 .caixa--planning-planejamentos_h-tactics{
 	margin-right:10px;
@@ -279,7 +282,6 @@ main{
 .caixa--section-fim{
 	height:80vh;
 	display: flex;
-   
 }
 .caixa--section-raio{
 	width: 100%;
@@ -303,14 +305,14 @@ main{
 }
 .caixa--section-title{
 	width: 253px;
+	height: 22vh;
 	align-self: center;
 	text-align: center;
 	font-size: 52px;
 	font-family: 'Korolev Bold';
-	
 }
 .caixa--section-envio-email{
-	width: 95%;
+	width: 90%;
 	height: 10vh;
 	display: flex;
 	align-self: center;
