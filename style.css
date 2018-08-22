@@ -144,6 +144,12 @@ main{
 .caixa_feature-freak{
 	width: 100%;
 }
+@media(min-width: 1000px){
+	.caixa_feature-freak{
+		width: 100%;
+		display: flex;
+	}
+}
 .caixa--imgCanvas{
 	width: 90%;
 	display: flex;
@@ -153,7 +159,7 @@ main{
 @media(min-width: 1000px){
 	.caixa--imgCanvas{
 		width: 100%;
-		
+		/* background-color: red; */
 	}
 }
 .caixa--imgCanvas_img{
@@ -162,17 +168,16 @@ main{
 }
 @media(min-width: 1000px){
 	.caixa--imgCanvas_img{
-		width: 60%;
-		height: 100%;
-		background-color: #e2e2e2;	
+		width: 80%;
+		/* background-color: #e2e2e2;	 */
 	}
 }
 @media(min-width: 1000px){
 	.caixa--feature-canvas{
-		width: 67%;
+		width: 100%;
 		display: flex;
-		flex-direction: row;
-		background-color: #52C6D8;		
+		flex-direction: column;
+		/* background-color: #52C6D8;		 */
 	}
 }
 .caixa--divisoria{
@@ -342,6 +347,13 @@ main{
 	font-size: 52px;
 	font-family: 'Korolev Bold';
 }
+@media(min-width: 1000px){
+	.caixa--section-title{
+		width: 100%;
+		height: 90px;
+		
+	}
+}
 .caixa--section-envio-email{
 	width: 90%;
 	height: 55px;
@@ -351,6 +363,11 @@ main{
 	justify-content: space-around;
 	border-radius: 5px;
 	background-color: #FFFFFF;
+}
+@media(min-width: 1000px){
+	.caixa--section-envio-email{
+		width: 40%;
+	}
 }
 .caixa--form{
 	width: 58%;
@@ -378,6 +395,12 @@ main{
 	color: #f5f5f5;
 	align-items: center;
 	justify-content: center;
+}
+@media(min-width: 1000px){
+	.caixa--section-button{
+		width: 30%;
+		height: 90%;
+	}
 }
 .caixa--section-raio-button-img{
 	width:15%;
