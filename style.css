@@ -32,11 +32,22 @@ main{
 	justify-content: center;
 	flex-direction: row;
 }
+@media(min-width: 1000px){
+	.caixa_topo{
+		width: 100%;
+		min-height: 22vh;
+	}
+}
 .caixa_topo--logo{
 	width: 50%;
 	display: flex;
 	justify-content: center;
 	align-self: center;
+}
+@media(min-width: 1000px){
+	.caixa_topo--logo{
+		width: 45%;
+	}
 }
 .topo--logo{
 	width: 75%;
@@ -51,7 +62,8 @@ main{
 }
 @media(min-width: 1000px){
 	.caixa_topo--menu{
-		width: 100%;
+		width: 90%;
+		
 	}
 }
 .menu--button-apply{
@@ -66,6 +78,11 @@ main{
     font-family: 'Korolev Medium';
     font-size: 10px;
 }
+@media(min-width: 1000px){
+	.menu--button-apply{
+		width: 13%;
+	}
+}
 .menu--button-sing{
 	width: 53px;
 	height: 30px;
@@ -78,15 +95,21 @@ main{
     font-family: 'Korolev Medium';	
     font-size: 10px;
 }
+@media(min-width: 1000px){
+	.menu--button-sing{
+		width: 8%;
+	}
+}
 .caixa--section-1{
 
 }
 @media(min-width: 1000px){
 	.caixa--section-1{
 		width: 100%;
+		height: 482px;
 		display: flex;
 		flex-direction: row;
-
+		
 	}
 }
 .caixa_video{
@@ -95,6 +118,7 @@ main{
 @media(min-width: 1000px){
 	.caixa_video{
 		width: 100%;
+		
 	}
 }
 .video--topo{
@@ -111,7 +135,7 @@ main{
 }
 @media(min-width: 1000px){
 	.caixa_elementos{
-		width: 50%;
+		width: 49.5%;
 		height: auto;
 	}
 }
@@ -158,7 +182,7 @@ main{
 }
 @media(min-width: 1000px){
 	.caixa--imgCanvas{
-		width: 100%;
+		width: 96.5%;
 		/* background-color: red; */
 	}
 }
@@ -174,7 +198,7 @@ main{
 }
 @media(min-width: 1000px){
 	.caixa--feature-canvas{
-		width: 100%;
+		width: 100%; 
 		display: flex;
 		flex-direction: column;
 		/* background-color: #52C6D8;		 */
@@ -242,11 +266,23 @@ main{
 .caixa--planning{
 	
 }
+@media(min-width: 1000px){
+	.caixa--planning{
+		border-left: solid 1px;
+		
+	}
+}
 .caixa--planning-elementos_1{
 	width: 100%;
 	height: 25vh;
 	display: flex;
 	flex-direction: row;
+}
+@media(min-width: 1000px){
+	.caixa--planning-elementos_1{
+		/* height: 150px; */
+		flex-direction: row-reverse;
+	}
 }
 .caixa--planning-planejamentos{
 	width: 78%;	
@@ -276,6 +312,11 @@ main{
     display: flex;
 	flex-direction: row-reverse;
 }
+@media(min-width: 1000px){
+	.caixa--planning-elementos_2{
+		flex-direction: row;
+	}
+}
 .caixa--planning-planejamentos_h-tactics{
 	margin-right:10px;
 }
@@ -289,6 +330,11 @@ main{
     height: 25vh;
     display: flex;
     flex-direction: row;
+}
+@media(min-width: 1000px){
+	.caixa--planning-elementos_3{
+		flex-direction: row-reverse;
+	}
 }
 .caixa--planning-planejamentos_p-Kanbans{
 	width: 63%;
@@ -440,6 +486,17 @@ footer{
 	justify-content: space-evenly;
 	flex-direction: column;
 	align-self: flex-end;
+}
+@media(min-width: 1000px){
+	.caixa--footer-redes_contato{
+		display: flex;
+		flex-direction: row;
+	}
+}
+@media(min-width: 1000px){
+	.caixa-footer-a-linguage{
+		display: none;
+	}
 }
 .caixa--footer-contato{
 	height: 8vh;
