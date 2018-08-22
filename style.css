@@ -15,13 +15,10 @@ body{
     linear-gradient(#e2e2e2 1px, transparent .5px),
     linear-gradient(90deg, #e2e2e2 1px, transparent 1px);
   	background-size:20px 20px, 20px 20px;
-
 }
-
 header{
 	width: 100%;
 }
-
 main{
 	width: 100%;
 	height: auto;
@@ -51,7 +48,11 @@ main{
 	align-items: center;
 	border-left: 2px solid;
 	background-color: #52c6d8;
-
+}
+@media(min-width: 1440px){
+	.caixa_topo--menu{
+		width: 100%;
+	}
 }
 .menu--button-apply{
 	width: 50%;
@@ -77,6 +78,14 @@ main{
     font-family: 'Korolev Medium';	
     font-size: 10px;
 }
+.caixa--section-1{
+
+}
+@media(min-width: 1440px){
+	.caixa--section-1{
+		width: 67%;
+	}
+}
 .caixa_video{
 	
 }
@@ -84,11 +93,21 @@ main{
 	width: 100%;
 	border: 1px solid;
 }
+@media(min-width: 1440px){
+	.video--topo{
+		width: 100%;
+	}
+}
 .caixa_descricao{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	height: 38vh;
+}
+@media(min-width: 1440px){
+	.caixa_descricao{
+		width: 25%;
+	}
 }
 .caixa_descricao--h{
 	width: 80%;
@@ -96,7 +115,6 @@ main{
 	font-size: 55px;
 	align-self: center;
 	font-family: 'Korolev Heavy';
-	
 }
 .caixa_descricao--paragrafo{
 	width: 80%;
@@ -126,6 +144,11 @@ main{
 	align-items: center;
 	background-color: #4152C0;
 	color: #fff;
+}
+@media(min-width: 1440px){
+	.caixa--divisoria{
+		width: 25%;
+	}
 }
 .caixa--divisoria__elementos{
 	width: 45%;
@@ -248,7 +271,8 @@ main{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 20px;
+	font-size: 26px;
+	font-family: 'Korolev Medium';
 	color: #fff;
 	background-color: #4152C0;
 }
@@ -303,7 +327,10 @@ main{
 	width: 100%;
 	height: 7vh;
 	font-size: 20px;
+	font-family: 'Korolev Light';
 	border: #fff;
+	outline:none;
+	opacity: 0.7;
 }
 .caixa--section-button{
 	width: 38%;
@@ -319,9 +346,9 @@ main{
 	align-items: center;
 	justify-content: center;
 }
-
 .caixa--section-raio-button-img{
 	width:15%;
+	margin-right: 20px;
 }
 footer{
 	/* height: 100%; */
@@ -333,20 +360,36 @@ footer{
 	display: flex;
 	align-self: center;
 }
-.caixa--footer-icons{
+.caixa--footer-icons-midias1{
+	width: 66%;
+	height: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+.caixa--footer-icons-midias2{
 	width: 100%;
+	height: 3vh;
+    display: flex;
+    justify-content: space-evenly;
 }
 .caixa--footer-icons-img{
-	width: 5vw;
+	width: 12vw;
 }
 .caixa--footer-redes_contato{
 	width: 100%;
+	min-height: 33vh;
 	display: flex;
+	justify-content: space-evenly;
 	flex-direction: column;
 	align-self: flex-end;
 }
 .caixa--footer-contato{
-	
+	height: 8vh;
+    display: flex;
+    flex-direction: column;
+	justify-content: space-between;
+	font-family: 'Korolev Bold';
+	font-size: 16px;
 }
 .caixa--footer-info{
 	display: flex;
@@ -355,13 +398,22 @@ footer{
 .caixa--footer-linguage{
 	width: 35%;
 	display: flex;
-    justify-content: space-evenly; 
+	justify-content: space-evenly; 
+	font-family: 'Korolev Light';
+}
+.caixa-footer-a:visited, .caixa-footer-a:link {
+	text-decoration: none;
+}
+.caixa-footer-a:hover , .caixa-footer-a:active{
+	text-decoration-style: underline;
 }
 .caixa--footer-redes_sociais{
 	height: 13vh;
 	display: flex;
 	justify-content: space-around;
 	flex-direction: column;
+	font-size: 17px;
+	font-family: 'Korolev Medium';
 }
 .caixa--footer-icons1{
 	width: 73%;
