@@ -106,7 +106,7 @@ main{
 @media(min-width: 1000px){
 	.caixa--section-1{
 		width: 100%;
-		height: 482px;
+		height: 483px;
 		display: flex;
 		flex-direction: row;
 		
@@ -148,7 +148,7 @@ main{
 @media(min-width: 1000px){
 	.caixa_descricao{
 		width: 100%;
-		height: 435px;
+		height: 423px;
 	}
 }
 .caixa_descricao--h{
@@ -183,6 +183,7 @@ main{
 @media(min-width: 1000px){
 	.caixa--imgCanvas{
 		width: 96.5%;
+		height: 374px;
 		/* background-color: red; */
 	}
 }
@@ -193,6 +194,7 @@ main{
 @media(min-width: 1000px){
 	.caixa--imgCanvas_img{
 		width: 80%;
+		padding: 30px 0px 0px 0px;
 		/* background-color: #e2e2e2;	 */
 	}
 }
@@ -216,6 +218,7 @@ main{
 @media(min-width: 1000px){
 	.caixa--divisoria{
 		width: 100%;
+		height: 61px;
 	}
 }
 .caixa--divisoria__elementos{
@@ -268,8 +271,9 @@ main{
 }
 @media(min-width: 1000px){
 	.caixa--planning{
+		width: 49vw;
 		border-left: solid 1px;
-		
+		border-top: solid 1px;
 	}
 }
 .caixa--planning-elementos_1{
@@ -280,18 +284,24 @@ main{
 }
 @media(min-width: 1000px){
 	.caixa--planning-elementos_1{
-		/* height: 150px; */
+		height: 154px;
 		flex-direction: row-reverse;
+		justify-content: space-between;
 	}
 }
 .caixa--planning-planejamentos{
-	width: 78%;	
+	width: 60%;	
 	background-color: #FAE80A;
 	border:	1px solid #000 ;
 	display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+@media(min-width: 1000px){
+	.caixa--planning-planejamentos{
+		width: 50%;
+	}
 }
 .caixa--planning-planejamentos_p-BMG{
 	width: 64%;
@@ -301,6 +311,16 @@ main{
 .caixa--planning-planejamentos-bordaDireta{
 	border-right: 1px solid black;
 	border-left: 0px;	
+}
+@media(min-width: 1000px){
+	.caixa--planning-planejamentos-bordaTop{
+		border-top: none;
+	}
+}
+@media(min-width: 1000px){
+	.caixa--planning-planejamentos-bordaBotton{
+		border-bottom: none;
+	}
 }
 .caixa--planning-planejamentos-bordaEsquerda{
 	border-left: 1px solid black;
@@ -314,7 +334,9 @@ main{
 }
 @media(min-width: 1000px){
 	.caixa--planning-elementos_2{
+		height: 154px;
 		flex-direction: row;
+		justify-content: space-between;
 	}
 }
 .caixa--planning-planejamentos_h-tactics{
@@ -329,11 +351,14 @@ main{
 	width: 100%;
     height: 25vh;
     display: flex;
-    flex-direction: row;
+	flex-direction: row;
+	border-bottom: solid 1px;
 }
 @media(min-width: 1000px){
 	.caixa--planning-elementos_3{
+		height: 154px;
 		flex-direction: row-reverse;
+		justify-content: space-between;
 	}
 }
 .caixa--planning-planejamentos_p-Kanbans{
@@ -360,6 +385,11 @@ main{
 	font-family: 'Korolev Medium';
 	color: #fff;
 	background-color: #4152C0;
+}
+@media(min-width: 1000px){
+	.caixa__all-sync{
+		height: 61px;
+	}
 }
 .caixa--section-fim{
 	height:80vh;
@@ -455,10 +485,22 @@ main{
 footer{
 	color: #3913B3;
 }
+@media(min-width: 1000px){
+	footer{
+		
+	}
+}
 .caixa--footer{
 	height: 100%;
 	display: flex;
 	align-self: center;
+}
+@media(min-width: 1000px){
+	.caixa--footer{
+		height: 150px;
+		align-content: center;
+		/* background-color: #FAE80A; */
+	}
 }
 .caixa--footer-icons-midias1{
 	width: 66%;
@@ -481,7 +523,7 @@ footer{
 }
 .caixa--footer-redes_contato{
 	width: 100%;
-	min-height: 33vh;
+	height: 33vh;
 	display: flex;
 	justify-content: space-evenly;
 	flex-direction: column;
@@ -489,12 +531,15 @@ footer{
 }
 @media(min-width: 1000px){
 	.caixa--footer-redes_contato{
+		height: 150px;
 		display: flex;
+		align-self: flex-start;
+		justify-content: center; 
 		flex-direction: row;
 	}
 }
 @media(min-width: 1000px){
-	.caixa-footer-a-linguage{
+	 caixa--planning-planejamentos-bordaTop{
 		display: none;
 	}
 }
@@ -506,15 +551,31 @@ footer{
 	font-family: 'Korolev Bold';
 	font-size: 16px;
 }
+@media(min-width: 1000px){
+	.caixa--footer-contato{
+		
+		/* background-color: #4152C0; */
+	}
+}
 .caixa--footer-info{
 	display: flex;
     justify-content: center;
+}
+@media(min-width: 1000px){
+	.caixa--footer-info{
+		height: 63px;
+	}
 }
 .caixa--footer-linguage{
 	width: 35%;
 	display: flex;
 	justify-content: space-evenly; 
 	font-family: 'Korolev Light';
+}
+@media(min-width: 1000px){
+	.caixa--footer-linguage{
+		display: none;
+	}
 }
 .caixa-footer-a:visited, .caixa-footer-a:link {
 	text-decoration: none;
@@ -530,8 +591,40 @@ footer{
 	font-size: 17px;
 	font-family: 'Korolev Medium';
 }
+@media(min-width: 1000px){
+	.caixa--footer-redes_sociais{
+		width: 50%;
+		height: 64px;
+		flex-direction: row;
+		/* background-color: #FF2D9F; */
+	}
+}
+.caixa--footer-redes_sociais-verção_desc{
+	width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media(min-width: 1000px){
+	.caixa--footer-redes_sociais-verção_desc{
+		height: 60px;
+
+	}
+}
 .caixa--footer-icons1{
 	width: 73%;
 	display: flex;
 	align-self: center;
+}
+.caixa--footer-linguage-desc{
+	display: none;
+}
+@media(min-width: 1000px){
+	.caixa--footer-linguage-desc{
+		width: 15%;
+		display: flex;
+		flex-direction: row;
+		/* background-color: #000; */
+	}
 }
