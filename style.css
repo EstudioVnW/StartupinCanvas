@@ -63,7 +63,6 @@ main{
 @media(min-width: 1000px){
 	.caixa_topo--menu{
 		width: 90%;
-		
 	}
 }
 .menu--button-apply{
@@ -108,8 +107,7 @@ main{
 		width: 100%;
 		height: 483px;
 		display: flex;
-		flex-direction: row;
-		
+		flex-direction: row;	
 	}
 }
 .caixa_video{
@@ -184,7 +182,6 @@ main{
 	.caixa--imgCanvas{
 		width: 96.5%;
 		height: 374px;
-		/* background-color: red; */
 	}
 }
 .caixa--imgCanvas_img{
@@ -195,7 +192,6 @@ main{
 	.caixa--imgCanvas_img{
 		width: 80%;
 		padding: 30px 0px 0px 0px;
-		/* background-color: #e2e2e2;	 */
 	}
 }
 @media(min-width: 1000px){
@@ -203,7 +199,6 @@ main{
 		width: 100%; 
 		display: flex;
 		flex-direction: column;
-		/* background-color: #52C6D8;		 */
 	}
 }
 .caixa--divisoria{
@@ -426,8 +421,7 @@ main{
 @media(min-width: 1000px){
 	.caixa--section-title{
 		width: 100%;
-		height: 90px;
-		
+		height: 90px;	
 	}
 }
 .caixa--section-envio-email{
@@ -499,7 +493,6 @@ footer{
 	.caixa--footer{
 		height: 150px;
 		align-content: center;
-		/* background-color: #FAE80A; */
 	}
 }
 .caixa--footer-icons-midias1{
@@ -507,20 +500,35 @@ footer{
 	height: 3vh;
     display: flex;
 }
+@media(min-width: 1000px){
+	.caixa--footer-icons-midias1{
+		width: 40%;
+	}	
+}
 .caixa--footer-icons-midias2{
 	width: 100%;
 	height: 3vh;
     display: flex;
     justify-content: space-evenly;
 }
+@media(min-width: 1000px){
+	.caixa--footer-icons-midias2{
+		width: 40%;
+	}	
+}
 .caixa--footer-icons-midias2-linkedin{
 	width: 75%;
 	display: flex;
     justify-content: space-evenly; 
 }
+@media(min-width: 1000px){
+	.caixa--footer-icons-midias2-linkedin{
+		width: 40%;
+	}
+}
 .caixa--footer-icons-img{
 	width: 12vw;
-}
+}	
 .caixa--footer-redes_contato{
 	width: 100%;
 	height: 33vh;
@@ -554,7 +562,6 @@ footer{
 @media(min-width: 1000px){
 	.caixa--footer-contato{
 		
-		/* background-color: #4152C0; */
 	}
 }
 .caixa--footer-info{
@@ -596,7 +603,6 @@ footer{
 		width: 50%;
 		height: 64px;
 		flex-direction: row;
-		/* background-color: #FF2D9F; */
 	}
 }
 .caixa--footer-redes_sociais-verção_desc{
@@ -606,14 +612,8 @@ footer{
     flex-direction: column;
     justify-content: space-between;
 }
-@media(min-width: 1000px){
-	.caixa--footer-redes_sociais-verção_desc{
-		height: 60px;
-
-	}
-}
 .caixa--footer-icons1{
-	width: 73%;
+	width: 100%;
 	display: flex;
 	align-self: center;
 }
@@ -622,9 +622,12 @@ footer{
 }
 @media(min-width: 1000px){
 	.caixa--footer-linguage-desc{
-		width: 15%;
 		display: flex;
 		flex-direction: row;
-		/* background-color: #000; */
+	}
+}
+@media(min-width: 1000px){
+	.caixa-footer-a-linguage-pt{
+		width: 30px;
 	}
 }
