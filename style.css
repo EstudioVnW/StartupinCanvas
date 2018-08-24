@@ -138,6 +138,7 @@ main{
 	}
 }
 .caixa_descricao{
+	width: 100%;
 	height: 265px;
 	display: flex;
 	justify-content: center;
@@ -150,7 +151,7 @@ main{
 	}
 }
 .caixa_descricao--h{
-	width: 274px;
+	width: 280px;
 	height: 141px;
 	font-size: 55px;
 	align-self: center;
@@ -203,7 +204,7 @@ main{
 }
 .caixa--divisoria{
 	width: 100%;
-	height: 7vh; 
+	height: 9vh; 
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -307,10 +308,16 @@ main{
 	border-right: 1px solid black;
 	border-left: 0px;	
 }
+.caixa--planning-planejamentos-bordaTop{
+	border-top: none;
+}
 @media(min-width: 1000px){
 	.caixa--planning-planejamentos-bordaTop{
 		border-top: none;
 	}
+}
+.caixa--planning-planejamentos-bordaBotton{
+	border-bottom: none;
 }
 @media(min-width: 1000px){
 	.caixa--planning-planejamentos-bordaBotton{
@@ -411,8 +418,8 @@ main{
 	align-self: center;
 }
 .caixa--section-title{
-	width: 253px;
-	height: 135px;
+	width: 274px;
+	height: 142px;
 	align-self: center;
 	text-align: center;
 	font-size: 52px;
@@ -453,8 +460,8 @@ main{
 	opacity: 0.7;
 }
 .caixa--section-button{
-	width: 38%;
-	height: 7vh;
+	width: 100px;
+	height: 40px;
 	display: flex;
 	flex-direction: row;
 	font-family: 'Korolev Bold';
@@ -473,7 +480,7 @@ main{
 	}
 }
 .caixa--section-raio-button-img{
-	width:15%;
+	width: 15px;
 	margin-right: 20px;
 }
 footer{
@@ -495,8 +502,13 @@ footer{
 		align-content: center;
 	}
 }
+.caixa--footer-icons1{
+	width: 90%;
+	display: flex;
+	justify-content: center;
+}
 .caixa--footer-icons-midias1{
-	width: 66%;
+	width: 40%;
 	height: 3vh;
     display: flex;
 }
@@ -506,7 +518,7 @@ footer{
 	}	
 }
 .caixa--footer-icons-midias2{
-	width: 100%;
+	width: 40%;
 	height: 3vh;
     display: flex;
     justify-content: space-evenly;
@@ -514,20 +526,27 @@ footer{
 @media(min-width: 1000px){
 	.caixa--footer-icons-midias2{
 		width: 40%;
+		justify-content: end;
 	}	
 }
 .caixa--footer-icons-midias2-linkedin{
-	width: 75%;
+	width: 40%;
 	display: flex;
     justify-content: space-evenly; 
 }
 @media(min-width: 1000px){
 	.caixa--footer-icons-midias2-linkedin{
 		width: 40%;
+		justify-content: end;
 	}
 }
 .caixa--footer-icons-img{
 	width: 12vw;
+}
+@media(min-width: 1000px){
+	.caixa--footer-icons-img{
+		width: 30%;
+	}
 }	
 .caixa--footer-redes_contato{
 	width: 100%;
@@ -566,10 +585,12 @@ footer{
 }
 .caixa--footer-info{
 	display: flex;
-    justify-content: center;
+	justify-content: center;
+    height: 65px;
 }
 @media(min-width: 1000px){
 	.caixa--footer-info{
+		width: 15%;
 		height: 63px;
 	}
 }
@@ -600,23 +621,19 @@ footer{
 }
 @media(min-width: 1000px){
 	.caixa--footer-redes_sociais{
-		width: 50%;
+		width: 40%;
 		height: 64px;
 		flex-direction: row;
 	}
 }
 .caixa--footer-redes_sociais-verção_desc{
 	width: 100%;
-    height: 70%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.caixa--footer-icons1{
-	width: 100%;
-	display: flex;
-	align-self: center;
-}
+
 .caixa--footer-linguage-desc{
 	display: none;
 }
