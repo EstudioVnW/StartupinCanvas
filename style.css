@@ -138,7 +138,7 @@ main{
 	}
 }
 .caixa_descricao{
-	width: 100%;
+	width: 335px;
 	height: 265px;
 	display: flex;
 	justify-content: center;
@@ -274,7 +274,7 @@ main{
 }
 .caixa--planning-elementos_1{
 	width: 100%;
-	height: 25vh;
+	height: 175px;;
 	display: flex;
 	flex-direction: row;
 }
@@ -330,7 +330,7 @@ main{
 }
 .caixa--planning-elementos_2{
 	width: 100%;
-    height: 25vh;
+    height: 175px;
     display: flex;
 	flex-direction: row-reverse;
 }
@@ -571,7 +571,7 @@ footer{
 	}
 }
 .caixa--footer-contato{
-	height: 8vh;
+	height: 10vh;
     display: flex;
     flex-direction: column;
 	justify-content: space-between;
@@ -631,7 +631,7 @@ footer{
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+	justify-content: space-around;
 }
 
 .caixa--footer-linguage-desc{
