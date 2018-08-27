@@ -269,7 +269,7 @@ main{
 }
 @media(min-width: 1000px){
 	.caixa--planning{
-		width: 49vw;
+		width: 49.01vw;
 		border-left: solid 1px;
 		border-top: solid 1px;
 	}
@@ -522,7 +522,7 @@ footer{
 	}
 }
 .caixa--footer-icons1{
-	width: 90%;
+	width: 95%;
 	display: flex;
 	justify-content: center;
 }
