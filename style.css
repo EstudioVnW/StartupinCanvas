@@ -75,7 +75,8 @@ main{
     background-color: #fff;
     color: #FF2D9F;
     font-family: 'Korolev Medium';
-    font-size: 10px;
+	font-size: 10px;
+	outline: none;
 }
 @media(min-width: 1000px){
 	.menu--button-apply{
@@ -92,7 +93,8 @@ main{
     background-color: #fff;
     color: #FF2D9F;
     font-family: 'Korolev Medium';	
-    font-size: 10px;
+	font-size: 10px;
+	outline: none;
 }
 @media(min-width: 1000px){
 	.menu--button-sing{
@@ -308,6 +310,13 @@ main{
 	border-right: 1px solid black;
 	border-left: 0px;	
 }
+@media(min-width: 1000px){
+	.caixa--planning-planejamentos-bordaDireta{
+		height: 156px;
+		border-right: 0px;
+		margin-top: -1px;
+	}
+}
 .caixa--planning-planejamentos-bordaTop{
 	border-top: none;
 }
@@ -327,6 +336,11 @@ main{
 .caixa--planning-planejamentos-bordaEsquerda{
 	border-left: 1px solid black;
 	border-right: 0px ;
+}
+@media(min-width: 1000px){
+	.caixa--planning-planejamentos-bordaEsquerda{
+		border-left: 0px;
+	}
 }
 .caixa--planning-elementos_2{
 	width: 100%;
@@ -376,7 +390,11 @@ main{
 }
 .caixa--planning-Icones{
 	width: 40%;
-	height: 20vh;
+	height: 130px;
+}@media(min-width: 1000px){
+	.caixa--planning-Icones{
+		height: 150px;
+	}
 }
 .caixa__all-sync{
 	height: 9vh;
@@ -580,7 +598,7 @@ footer{
 }
 @media(min-width: 1000px){
 	.caixa--footer-contato{
-		
+		height: 60px;
 	}
 }
 .caixa--footer-info{
@@ -633,7 +651,11 @@ footer{
     flex-direction: column;
 	justify-content: space-around;
 }
-
+@media(min-width: 1000px){
+	.caixa--footer-redes_sociais-verção_desc{
+		justify-content: space-between;
+	}
+}
 .caixa--footer-linguage-desc{
 	display: none;
 }
