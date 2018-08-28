@@ -32,7 +32,7 @@ main{
 	justify-content: center;
 	flex-direction: row;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa_topo{
 		width: 100%;
 		min-height: 22vh;
@@ -44,7 +44,7 @@ main{
 	justify-content: center;
 	align-self: center;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa_topo--logo{
 		width: 45%;
 	}
@@ -60,9 +60,17 @@ main{
 	border-left: 2px solid;
 	background-color: #52c6d8;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa_topo--menu{
 		width: 90%;
+		opacity: 0.8;
+	}
+}
+@media(min-width: 900px){
+	.caixa--topo_buttons{
+		width: 45%;
+		display: flex;
+		justify-content: space-evenly;
 	}
 }
 .menu--button-apply{
@@ -78,9 +86,9 @@ main{
 	font-size: 10px;
 	outline: none;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.menu--button-apply{
-		width: 13%;
+		width: 34%;
 	}
 }
 .menu--button-sing{
@@ -96,15 +104,15 @@ main{
 	font-size: 10px;
 	outline: none;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.menu--button-sing{
-		width: 8%;
+		width: 22%;
 	}
 }
 .caixa--section-1{
 
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--section-1{
 		width: 100%;
 		height: 483px;
@@ -115,7 +123,7 @@ main{
 .caixa_video{
 	
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa_video{
 		width: 100%;
 		
@@ -126,7 +134,7 @@ main{
 	border: 1px solid;
 	border-left: 0px;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.video--topo{
 		width: 100%;
 	}
@@ -134,7 +142,7 @@ main{
 .caixa_elementos{
 
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa_elementos{
 		width: 49.5%;
 		height: auto;
@@ -147,7 +155,7 @@ main{
 	justify-content: center;
 	flex-direction: column;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa_descricao{
 		width: 100%;
 		height: 423px;
@@ -171,7 +179,7 @@ main{
 .caixa_feature-freak{
 	width: 100%;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa_feature-freak{
 		width: 100%;
 		display: flex;
@@ -183,7 +191,7 @@ main{
 	justify-content: center;
 	margin: 20px;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--imgCanvas{
 		width: 96.5%;
 		height: 374px;
@@ -193,13 +201,13 @@ main{
 	width: 100%;
 	height: 100%;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--imgCanvas_img{
 		width: 80%;
 		padding: 30px 0px 0px 0px;
 	}
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--feature-canvas{
 		width: 100%; 
 		display: flex;
@@ -215,7 +223,7 @@ main{
 	background-color: #4152C0;
 	color: #fff;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--divisoria{
 		width: 100%;
 		height: 61px;
@@ -230,7 +238,7 @@ main{
     margin-left: 25px;
 }
 .seta__divisoria{
-	width: 10%;
+	width: 20px;
 }
 .caixa--divisoria__paragrafo{
 	font-size: 17px;
@@ -252,7 +260,7 @@ main{
 	border: 1px solid #000;
 	border-left: 0px;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--postit-information{
 		border-bottom: 0;
 	}
@@ -274,7 +282,7 @@ main{
 .caixa--planning{
 	
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--planning{
 		width: 49.01vw;
 		border-left: solid 1px;
@@ -287,7 +295,7 @@ main{
 	display: flex;
 	flex-direction: row;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--planning-elementos_1{
 		height: 154px;
 		flex-direction: row-reverse;
@@ -303,7 +311,7 @@ main{
     align-items: center;
     justify-content: center;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--planning-planejamentos{
 		width: 50%;
 	}
@@ -317,7 +325,7 @@ main{
 	border-right: 1px solid black;
 	border-left: 0px;	
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--planning-planejamentos-bordaDireta{
 		height: 156px;
 		border-right: 0px;
@@ -327,7 +335,7 @@ main{
 .caixa--planning-planejamentos-bordaTop{
 	border-top: none;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--planning-planejamentos-bordaTop{
 		border-top: none;
 	}
@@ -335,7 +343,7 @@ main{
 .caixa--planning-planejamentos-bordaBotton{
 	border-bottom: none;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--planning-planejamentos-bordaBotton{
 		border-bottom: none;
 	}
@@ -344,7 +352,7 @@ main{
 	border-left: 1px solid black;
 	border-right: 0px ;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--planning-planejamentos-bordaEsquerda{
 		border-left: 0px;
 	}
@@ -355,7 +363,7 @@ main{
     display: flex;
 	flex-direction: row-reverse;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--planning-elementos_2{
 		height: 154px;
 		flex-direction: row;
@@ -377,7 +385,7 @@ main{
 	flex-direction: row;
 	border-bottom: solid 1px;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--planning-elementos_3{
 		height: 154px;
 		flex-direction: row-reverse;
@@ -398,7 +406,7 @@ main{
 .caixa--planning-Icones{
 	width: 40%;
 	height: 130px;
-}@media(min-width: 1000px){
+}@media(min-width: 900px){
 	.caixa--planning-Icones{
 		height: 150px;
 	}
@@ -413,7 +421,7 @@ main{
 	color: #fff;
 	background-color: #4152C0;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa__all-sync{
 		height: 61px;
 	}
@@ -450,7 +458,7 @@ main{
 	font-size: 52px;
 	font-family: 'Korolev Bold';
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--section-title{
 		width: 100%;
 		height: 90px;	
@@ -466,7 +474,7 @@ main{
 	border-radius: 5px;
 	background-color: #FFFFFF;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--section-envio-email{
 		width: 40%;
 	}
@@ -499,7 +507,7 @@ main{
 	justify-content: center;
 	outline: none;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--section-button{
 		width: 30%;
 		height: 90%;
@@ -512,7 +520,7 @@ main{
 footer{
 	color: #3913B3;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	footer{
 		
 	}
@@ -522,7 +530,7 @@ footer{
 	display: flex;
 	align-self: center;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--footer{
 		height: 150px;
 		align-content: center;
@@ -538,7 +546,7 @@ footer{
 	height: 3vh;
     display: flex;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--footer-icons-midias1{
 		width: 40%;
 	}	
@@ -549,7 +557,7 @@ footer{
     display: flex;
     justify-content: space-evenly;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--footer-icons-midias2{
 		width: 40%;
 		justify-content: end;
@@ -560,7 +568,7 @@ footer{
 	display: flex;
     justify-content: space-evenly; 
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--footer-icons-midias2-linkedin{
 		width: 40%;
 		justify-content: end;
@@ -569,7 +577,7 @@ footer{
 .caixa--footer-icons-img{
 	width: 12vw;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--footer-icons-img{
 		width: 30%;
 	}
@@ -582,7 +590,7 @@ footer{
 	flex-direction: column;
 	align-self: flex-end;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--footer-redes_contato{
 		height: 150px;
 		display: flex;
@@ -591,7 +599,7 @@ footer{
 		flex-direction: row;
 	}
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	 caixa--planning-planejamentos-bordaTop{
 		display: none;
 	}
@@ -604,7 +612,7 @@ footer{
 	font-family: 'Korolev Bold';
 	font-size: 16px;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--footer-contato{
 		height: 60px;
 	}
@@ -614,7 +622,7 @@ footer{
 	justify-content: center;
     height: 65px;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--footer-info{
 		width: 15%;
 		height: 63px;
@@ -626,7 +634,7 @@ footer{
 	justify-content: space-evenly; 
 	font-family: 'Korolev Light';
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--footer-linguage{
 		display: none;
 	}
@@ -645,7 +653,7 @@ footer{
 	font-size: 17px;
 	font-family: 'Korolev Medium';
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--footer-redes_sociais{
 		width: 40%;
 		height: 64px;
@@ -659,7 +667,7 @@ footer{
     flex-direction: column;
 	justify-content: space-around;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--footer-redes_sociais-verção_desc{
 		justify-content: space-between;
 	}
@@ -667,13 +675,13 @@ footer{
 .caixa--footer-linguage-desc{
 	display: none;
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa--footer-linguage-desc{
 		display: flex;
 		flex-direction: row;
 	}
 }
-@media(min-width: 1000px){
+@media(min-width: 900px){
 	.caixa-footer-a-linguage-pt{
 		width: 30px;
 	}
