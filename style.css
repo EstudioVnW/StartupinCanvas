@@ -824,6 +824,7 @@ main{
 @media(min-width: 900px){
 	.video--topo{
 		width: 100%;
+		height: 100%;
 	}
 }
 .caixa_elementos{
@@ -832,7 +833,7 @@ main{
 @media(min-width: 900px){
 	.caixa_elementos{
 		width: 49.5%;
-		height: auto;
+		height: 30.3em;
 	}
 }
 .caixa_descricao{
@@ -977,6 +978,7 @@ main{
 @media(min-width: 900px){
 	.caixa--planning{
 		width: 49.01vw;
+		height: 100%;
 		border-left: solid 1px;
 		border-top: solid 1px;
 	}
