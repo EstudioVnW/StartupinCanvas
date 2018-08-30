@@ -167,7 +167,7 @@ main{
 	height: 141px;
 	font-size: 50px;
 	align-self: center;
-	font-family: 'Korolev Heavy';
+	font-family: Korolev Heavy;
 }
 .caixa_descricao--paragrafo{
 	width: 282px;
@@ -318,7 +318,7 @@ main{
 }
 .caixa--planning-planejamentos_p-BMG{
 	width: 64%;
-	font-family:'Lexia Bold';
+	font-family:LexiaBold;
 	opacity: 0.7;
 }
 .caixa--planning-planejamentos-bordaDireta{

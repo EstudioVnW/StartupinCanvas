@@ -1,41 +1,31 @@
 @font-face {
-font-family: 'Korolev Heavy';
-font-style: normal;
+font-family: Korolev Heavy;
 font-weight: normal;
-src:url(fonts/Korolev Heavy), url('Korolev Heavy.woff') format('woff');
+src:url(fonts/KorolevHeavy.woff);
 }
 
 @font-face {
-font-family: 'Korolev Light';
-font-style: normal;
-font-weight: normal;
-src:url(fonts/Korolev Light), url('Korolev Light.woff') format('woff');
+font-family: Korolev Light;
+src:url(fonts/KorolevLight.woff);
 }
 
 
 @font-face {
-font-family: 'Korolev Medium Italic';
-font-style: normal;
-font-weight: normal;
-src:url(fonts/Korolev Medium Italic), url('Korolev Medium Italic.woff') format('woff');
+font-family: Korolev Medium Italic;
+src:url(fonts/KorolevMediumItalic.woff);
+}
+
+
+@font-face {
+font-family: Korolev Medium;
+src:url(fonts/KorolevMedium.woff);
 }
 
 @font-face {
-font-family: 'Korolev Medium';
-font-style: normal;
-font-weight: normal;
-src:url(fonts/Korolev Medium), url('Korolev Medium.woff') format('woff');
-}
-
-@font-face {
-font-family: 'Korolev Bold';
-font-style: normal;
-font-weight: normal;
-src:url(fonts/Korolev Bold), url('Korolev Bold.woff') format('woff');
+font-family: Korolev Bold;
+src:url(fonts/KorolevBold.woff);
 }
 @font-face {
-font-family: 'Lexia Bold';
-font-style: normal;
-font-weight: normal;
-src:url(fonts/Lexia Bold), url('LEXIB___.woff') format('woff');
+font-family: LexiaBold;
+src:url(fonts/lexia-dama.otf);
 }
