@@ -962,6 +962,11 @@ main{
 	width: 120px;
 	text-align: center;
 }
+@media(min-width: 900px){
+	.h_postit-information--realtime{
+		width: 230px;
+	}
+}
 .caixa--postit-information_pink{
 	background-color: #FF2D9F;
 	border-right: 0px;
