@@ -921,12 +921,13 @@ main{
 	width: 45%;
 	height: 22px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+	flex-direction: row;
+	align-items: center;
+    justify-content: space-around;
     margin-left: 25px;
 }
 .seta__divisoria{
-	width: 20px;
+	width: 15px;
 }
 .caixa--divisoria__paragrafo{
 	font-size: 17px;
